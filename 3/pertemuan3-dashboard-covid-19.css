@@ -1,0 +1,62 @@
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+  }
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(95, 117, 117);
+  }
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #000000;
+}
+
+.footer {
+    padding: 10px;
+    text-align: center;
+    background:   rgb(95, 117, 117);
+    margin-top: 20px;
+    color: white;
+  }
+
+.round-box {
+    border: 15px solid  rgb(95, 117, 117);
+    padding: 50px;
+    margin: 20px;
+    background-color:  rgb(25, 149, 250);;
+    animation-name: warna;
+  animation-duration: 30s;
+  }
+
+@keyframes warna {
+    0% {background-color: rgb(255, 60, 180);}
+    10% {background-color: rgb(25, 149, 250);}
+    20% {background-color: rgb(115, 255, 35);}
+    30% {background-color: rgb(255, 60, 180);}
+    40% {background-color: rgb(25, 149, 250);}
+    50% {background-color: rgb(115, 255, 35);}
+    60% {background-color: rgb(255, 60, 180);}
+    70% {background-color: rgb(25, 149, 250);}
+    80% {background-color: rgb(115, 255, 35);}
+    90% {background-color: rgb(255, 60, 180);}
+    100% {background-color: rgb(25, 149, 250);}
+  }
+
+.shadow{
+    text-shadow: 2px 2px 5px rgb(0, 17, 255);
+}
